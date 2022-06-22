@@ -5,17 +5,17 @@ import java.util.List;
 /**
  * Entity that represents a generic Vehicle.
  * <p>
- * {@link MyClass#name} represents the name of the vehicle, e.g.: A Class
- * {@link MyClass#constructionYear} the year when the vehicle was manufactured
- * {@link MyClass#extras} is a list with all the extras a car has, e.g.: ["premium package", "parking assistant"]
+ * {@link Vehicle#name} represents the name of the vehicle, e.g.: A Class
+ * {@link Vehicle#constructionYear} the year when the vehicle was manufactured
+ * {@link Vehicle#extras} is a list with all the extras a car has, e.g.: ["premium package", "parking assistant"]
  */
-public class MyClass {
+public class Vehicle {
 
     public String name;
     public int constructionYear;
     public List<String> extras;
 
-    public MyClass(String name, int constructionYear, List<String> extras) {
+    public Vehicle(String name, int constructionYear, List<String> extras) {
         this.name = name;
         this.constructionYear = constructionYear;
         this.extras = extras;
