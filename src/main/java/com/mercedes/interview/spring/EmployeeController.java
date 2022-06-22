@@ -48,7 +48,7 @@ public class EmployeeController {
     /**
      * Deletes the employee instance identified by the id received by parameter
      */
-    // Q21: Do you know how we could restrict this operation to a restrict set of users?
+    // Q21: Do you know how we could restrict this operation to a restricted set of users?
     void deleteEmployeeWithId(final long id) {
         employeeService.deleteEmployeeWithId(id);
     }

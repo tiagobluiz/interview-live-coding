@@ -23,6 +23,4 @@ public class Car {
 
     // Exercise 1: Analyze the three classes and formulate an opinion in regards its architecture.
     // If you think that something should be different, implement it.
-
-    // Exercise 2: Whenever we have a car, we want to add always to the list of extras returned another one called "free scent", how would you do this?
 }
