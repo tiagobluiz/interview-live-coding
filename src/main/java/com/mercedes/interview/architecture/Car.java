@@ -18,6 +18,7 @@ public class Car {
 
     public Car(String name, int constructionYear, List<String> extras) {
         this.name = name;
+        this.constructionYear = constructionYear;
         this.extras = extras;
     }
 
