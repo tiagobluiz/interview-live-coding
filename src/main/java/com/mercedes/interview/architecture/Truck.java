@@ -17,8 +17,9 @@ public class Truck {
     public List<String> extras;
     public boolean isTrailerAttached;
 
-    public Truck(String name, List<String> extras, boolean isTrailerAttached) {
+    public Truck(String name, int constructionYear, List<String> extras, boolean isTrailerAttached) {
         this.name = name;
+        this.constructionYear = constructionYear;
         this.extras = extras;
         this.isTrailerAttached = isTrailerAttached;
     }

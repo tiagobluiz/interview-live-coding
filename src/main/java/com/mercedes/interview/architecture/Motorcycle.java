@@ -15,7 +15,7 @@ public class Motorcycle {
     public int constructionYear;
     public List<String> extras;
 
-    public Motorcycle(String name, List<String> extras) {
+    public Motorcycle(String name, int constructionYear, List<String> extras) {
         this.name = name;
         this.extras = extras;
     }

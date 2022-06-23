@@ -2,9 +2,9 @@
 Implement a service and its respective methods. You can find the method signatures below:
 
 /**
- * Get a list with the names of all vehicles received by parameter
+ * Get a list with the construction year of all vehicles received by parameter that have the name
  */
-List<String> getAllVehiclesWithName(final List<Vehicle> vehicles, final String name);
+List<Integer> getAllVehiclesConstructionYearWithName(final List<Vehicle> vehicles, final String name);
 
 /**
  * Get a list with all the extras from all vehicles (bonus: would it be possible to return only unique extras?)

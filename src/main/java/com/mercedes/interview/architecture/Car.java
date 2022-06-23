@@ -11,12 +11,12 @@ import java.util.List;
  */
 public class Car {
 
-    // Q1: Which accessors do you know? Which one is used by default?
+    // Q1: Which access modifiers do you know? Which one is used by default?
     public String name;
     public int constructionYear; // Q2: What are primitive and reference type? What are the main differences between them?
     public List<String> extras; // Q3: Which data structures do you know?
 
-    public Car(String name, List<String> extras) {
+    public Car(String name, int constructionYear, List<String> extras) {
         this.name = name;
         this.extras = extras;
     }
