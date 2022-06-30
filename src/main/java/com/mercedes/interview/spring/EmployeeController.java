@@ -4,8 +4,7 @@ import org.springframework.http.ResponseEntity;
 
 import java.util.List;
 
-// Q14.1: What is a controller?
-// Q14.2: Which annotation should be used in Spring to identify a Controller?
+// Q14.1: Which annotation should be used in Spring to identify a Controller?
 public class EmployeeController {
 
     // Q15: How would you import the EmployeeService? Which possible ways do you know to import beans?

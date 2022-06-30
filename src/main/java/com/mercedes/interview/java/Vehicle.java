@@ -21,13 +21,22 @@ public class Vehicle {
         this.extras = extras;
     }
 
-    // Q4: Which design patterns do you know?
+    // Exercise: Implement a singleton for this class.
+    // Q: What is lazy and eager initialization? How would you categorize your implementation?
+    // Q: Is a singleton, by default, thread-safe? If your answer is no, do you know any way to make it safe?
 
-    // Exercise 3: Implement a singleton for this class.
-    // Q5.1: What is lazy and eager initialization? How would you categorize your implementation?
-    // Q5.2: Is a singleton, by default, thread-safe? If your answer is no, do you know any way to make it safe?
 
-    // Exercise 4: Explain the concept of overloading and overriding.
+
+
+
+
+
+
+
+
+
 
     // Exercise 5: Make this class immutable.
+
+    // Q: Imagine that you had a bug in the implementation of your service, how would you find this bug, which tools would you use?
 }
