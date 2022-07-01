@@ -3,9 +3,9 @@ package com.mercedes.interview.spring;
 import java.util.Collections;
 import java.util.List;
 
-// Q11: What are interfaces and abstract classes? What are the differences between them?
-// Q12: Would it make sense to have an interface or abstract class for this service?
-// Q13: In spring, how can we mark this service as a Bean (and what is a bean?)?
+// Q: What are interfaces and abstract classes? What are the differences between them?
+// Q: Would it make sense to have an interface or abstract class for this service?
+// Q: In spring, how can we mark this service as a Bean (and what is a bean?)?
 // Q: Which of these methods would need Transactional annotation and why?
 // Q: Imagine that these calls to the database are really slow, how would you debug it and how would you tackle this performance issues?
 public class EmployeeService {
