@@ -14,6 +14,7 @@ public class EmployeeController {
     // Q: Which HTTP Verbs would you use for the operations supported by this controller, and how would you say to Spring which one to use?
 
     // Q: When returning a response to a client which headers should be defined at the controller?
+    // Q: How would you handle error scenarios when getting all the employees? Which error code should we use?
     public ResponseEntity<List<Employee>> getAllEmployees() {
         final var employees = employeeService.getAllEmployees();
         return null;
@@ -41,6 +42,7 @@ public class EmployeeController {
     ResponseEntity<Employee> updateEmployeeWithId(final long id,
         /*Q: How would you tell spring to get the value for this object?*/ final Employee updatedEntity) {
         final var updatedEmployee = employeeService.updateEmployeeWithId(id, updatedEntity);
+        //Q: If we have two microservices running in parallel and there is two simultaneous calls to this method, how would you handle it?
         return null;
     }
 
@@ -51,4 +53,6 @@ public class EmployeeController {
     void deleteEmployeeWithId(final long id) {
         employeeService.deleteEmployeeWithId(id);
     }
+
+    //Q: How would you test this spring controller?
 }
